@@ -1,0 +1,59 @@
+
+.card-wrapper{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+}
+
+.pdr-5{
+    padding-right: 5px ;
+}
+
+.mgr-5{
+    margin-right: 5px;
+}
+
+.flight-image-size{
+    height: 25px;
+    width: 30px;
+}
+
+.location-wrapper{
+    /* border: 1px solid turquoise; */
+    padding: 1%;
+    width: 70%;
+}
+
+.location-name{
+    /* border: 1px solid teal; */
+    display: flex;
+}
+
+.location{
+    /* border: 1px solid slateblue; */
+    font-weight: bold;
+}
+
+.airport-deatil{
+    /* border: 1px solid orange; */
+    font-size: 85%;
+}
+
+.country-detail{
+    /* border: 1px solid sienna; */
+    display: flex;
+    align-items: center;
+}
+
+.country-name{
+    font-weight: bold;
+}
+
+.flag-size{
+    height: 25px;
+    width: 35px;
+}

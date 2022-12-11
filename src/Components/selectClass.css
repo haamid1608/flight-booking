@@ -1,0 +1,50 @@
+
+.mgr-10{
+    margin-right: 10px;
+}
+
+.mgr-5{
+    margin-right: 5px;
+}
+
+.pd-10{
+    padding: 10px;
+}
+
+.pdl-2{
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.pdb-5{
+    padding-bottom: 5px;
+}
+
+.pdt-5{
+    padding-top: 5px;
+}
+
+.class-wrapper{
+    /* border: 1px solid blue; */
+    background-color: #eadbdb;
+    border-radius: 10px;
+
+}
+
+.class-label{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.class-options{
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+.input-check{
+    display: flex;
+    align-items: center;
+}
+

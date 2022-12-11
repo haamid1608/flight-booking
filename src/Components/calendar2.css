@@ -1,0 +1,104 @@
+* {box-sizing: border-box; }
+ul {list-style-type: none;}
+body {
+  font-family: Verdana, sans-serif;
+
+}
+
+
+.month {
+  /* padding: 70px 25px; */
+  width: 100%;
+  color: black;
+  background: #eadbdb;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.month-text{
+  color: black;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #eeeeee;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eadbdb;
+  margin: 0;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  /* padding: 5px; */
+  background: #1abc9c;
+  color: white !important;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.active-font{
+  font-weight: bold;
+  color: black;
+}
+
+.disabled-dates{
+  color: silver;
+}
+
+.selected{
+    /* padding: 5px; */
+    background: #bc4b1a;
+    color: white !important;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.selected-font{
+  color: red;
+  font-weight: bold;
+}
